@@ -1,7 +1,9 @@
 let gameState = {};
 
-gameStart();
-setInterval(gameLoop, 1000);
+function setupGame() {
+	gameStart();
+	setInterval(gameLoop, 1000);
+}
 
 function gameStart() {
 	gameState.score = 0;
@@ -11,6 +13,7 @@ function gameStart() {
 		position: [4,0],
 		rotation: 0
 	};
+	redraw();
 }
 
 function gameLoop() {

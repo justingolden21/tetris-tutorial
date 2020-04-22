@@ -4,7 +4,7 @@ const GAME_HEIGHT = 20;
 
 let canvas, ctx;
 
-window.onload = function() {
+function setupCanvas() {
 	canvas = document.getElementById('canvas');
 	ctx = canvas.getContext('2d');
 
