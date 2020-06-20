@@ -1,5 +1,5 @@
 const TETROMINOS = {
-	'O': {
+	O: {
 		color: 'yellow',
 		coords: [
 			[0,0],
@@ -8,7 +8,7 @@ const TETROMINOS = {
 			[1,1]
 		]
 	},
-	'I': {
+	I: {
 		color: 'blue',
 		coords: [
 			[0,0],
@@ -17,7 +17,7 @@ const TETROMINOS = {
 			[0,3]
 		]
 	},
-	'S': {
+	S: {
 		color: 'red',
 		coords: [
 			[0,1],
@@ -26,7 +26,7 @@ const TETROMINOS = {
 			[2,0]
 		]
 	},
-	'Z': {
+	Z: {
 		color: 'green',
 		coords: [
 			[0,0],
@@ -35,7 +35,7 @@ const TETROMINOS = {
 			[2,1]
 		]
 	},
-	'L': {
+	L: {
 		color: 'orange',
 		coords: [
 			[0,0],
@@ -44,7 +44,7 @@ const TETROMINOS = {
 			[1,2]
 		]
 	},
-	'J': {
+	J: {
 		color: 'pink',
 		coords: [
 			[0,2],
@@ -53,7 +53,7 @@ const TETROMINOS = {
 			[1,2]
 		]
 	},
-	'T': {
+	T: {
 		color: 'purple',
 		coords: [
 			[0,0],
